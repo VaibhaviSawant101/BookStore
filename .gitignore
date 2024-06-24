@@ -1,0 +1,116 @@
+# Node.js modules
+/backend/node_modules/
+/frontend/node_modules/
+
+# Logs
+/backend/logs/
+/backend/*.log
+/backend/npm-debug.log*
+/backend/yarn-debug.log*
+/backend/yarn-error.log*
+/backend/pnpm-debug.log*
+/backend/lerna-debug.log*
+
+/frontend/logs/
+/frontend/*.log
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/pnpm-debug.log*
+/frontend/lerna-debug.log*
+
+# Dependency directories
+/backend/node_modules/
+/frontend/node_modules/
+
+# Build output
+/frontend/dist/
+/frontend/dist-ssr/
+/backend/dist/
+/backend/build/
+
+/frontend/*.local
+/backend/*.local
+
+# Editor directories and files
+/frontend/.vscode/*
+/frontend/!.vscode/extensions.json
+/frontend/.idea
+/frontend/.DS_Store
+/frontend/*.suo
+/frontend/*.ntvs*
+/frontend/*.njsproj
+/frontend/*.sln
+/frontend/*.sw?
+
+/backend/.vscode/*
+/backend/!.vscode/extensions.json
+/backend/.idea
+/backend/.DS_Store
+/backend/*.suo
+/backend/*.ntvs*
+/backend/*.njsproj
+/backend/*.sln
+/backend/*.sw?
+
+# Env files
+/.env
+/backend/.env
+/frontend/.env
+
+# Miscellaneous
+/learnings.txt
+
+# Optional eslint cache
+.eslintcache
+
+# Coverage directory used by tools like istanbul
+coverage
+*.lcov
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional stylelint cache
+.stylelintcache
+
+# Parcel cache
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+
+# Expo
+.expo
+.expo-shared
+
+# React Native
+ios/Pods
+
+# Snowpack cache
+.snowpack
+
+# Vite
+node_modules/
+dist/
+.vite
+.temp
+
+# Storybook
+build/
+.cache
+.DS_Store
+dist
+.storybook/node_modules/
+.vscode
+
+# Local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
